@@ -15,8 +15,8 @@ class MyHeader extends HeaderBase {
         $rightBorder = $rep->pageWidth-$rep->rightMargin;
         $docWidth = $rep->pageWidth-($rep->leftMargin+$rep->rightMargin);
         
-        $rep->SetMargins($rep->leftMargin, $rep->topMargin, $rep->rightMargin);
-        $rep->SetAutoPageBreak(true, $rep->bottomMargin);
+        //$rep->SetMargins($rep->leftMargin, $rep->topMargin, $rep->rightMargin);
+        //$rep->SetAutoPageBreak(true, $rep->bottomMargin);
         
         
         $aux_info = array(
